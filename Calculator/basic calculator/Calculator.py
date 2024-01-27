@@ -10,7 +10,7 @@ def enter_press():
         entry.insert(0, eval(contents))
     else:
         messagebox.showerror(
-            "Error", "contents of input box were not numbers or calculation symbols.")
+            "Error", "Invalid contents. Only numbers and the symbols '+', '-', '*', and '/' are allowed.")
 
 
 window = Tk.Tk()
