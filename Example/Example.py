@@ -1,5 +1,4 @@
 import tkinter as Tk
-from sqlite3 import *
 
 
 def on_button_press():
